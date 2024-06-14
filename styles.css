@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #4edc58, #6416c4, #dafa09), url('https://www.transparenttextures.com/patterns/rectangle.png');
+    background-blend-mode: overlay;
+    color: #b475a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.05); /* Adjusted opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(160, 60, 60, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input::placeholder {
+    color: hsl(306, 92%, 51%);
+}
+
+button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9033c;
+    background-image: linear-gradient(to right, #f0099b, #8dcfec);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff4b2b;
+}
+
+#weather-info {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-info h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #0f0101;
+}
+
+#weather-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #140101;
+}
